@@ -1,6 +1,5 @@
 # LottieBasicImplementation
-The simplest example of AirBnB Lottie library. Simple example reading json file and showing in 
-an Andorid Activity (`Batteries included`).
+The simplest example of AirBnB Lottie library. Simple example showing a JSON file in an Android Activity (Batteries included).
 
 <img src="https://media.giphy.com/media/2A4yGLexsUCE3lvBE2/giphy.gif" alt="">
 
@@ -18,7 +17,7 @@ file rotating (https://www.flaticon.com/free-icon/siren_1548321#term=siren&page=
 
 <img src="https://imgur.com/lpaMs6q.png" alt="">
 
-After, using **Bodymovin** export the necessary files (temp name for this project: `anim1`) using the next puling's setup:
+After, using **Bodymovin** , export the necessary files (temporary name for this project: `anim1`) using the next puling's setup:
 
 <img src="https://imgur.com/7Uyv9bx.png" alt="">
 
@@ -26,7 +25,7 @@ This creates a folder with the following files:
 
 <img src="https://imgur.com/7uxeWsx.png" alt="">
 
-An recent preview it can be seen in `demo.html`. In Android, add the `images` folder to `assets`(Android), and `.json`
+A recent preview can be seen in `demo.html`. In Android, add the `images` folder to `assets`(Android), and `.json`
 file in `raw` folder(Android). Lastly, in Android layout's activity add:
 
     <com.airbnb.lottie.LottieAnimationView
@@ -49,7 +48,7 @@ file in `raw` folder(Android). Lastly, in Android layout's activity add:
         app:lottie_rawRes="@raw/anim"
         />
 
-The most important thing is adding the **LottieAnimationView** and:
+The important thing is adding the **LottieAnimationView** and:
 
         app:lottie_imageAssetsFolder="images"
         app:lottie_rawRes="@raw/anim"
